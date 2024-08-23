@@ -1,11 +1,20 @@
+<!-- pages/index.vue -->
 <template>
-  <Tutorial/>
+  <div>
+    <h2>Welcome to My Flower Shop!</h2>
+    <p>Explore our beautiful collection of flowers and plants.</p>
+  </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage'
-})
+export default {
+  name: 'HomePage',
+  layout: 'default' // Chỉ định layout sử dụng cho trang này
+}
 </script>
+
+<style scoped>
+h2 {
+  color: #333;
+}
+</style>

@@ -1,5 +1,6 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
+  layout: 'default', // Layout mặc định toàn cục
   ssr: false,
   axios: {
     baseURL: 'http://localhost:3001/api' // Trỏ tới backend
